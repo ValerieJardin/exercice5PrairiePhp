@@ -1,11 +1,10 @@
 <?php
 
-function myFirstFonction($mot)
-
+function myFirstFonction($chaine1 , $chaine2)
 {
-    echo "J'ai réussi à " . $mot ;
+  return ($chaine1.$chaine2);
 }
-
-myFirstFonction ("créer une fonction !");
-
+    $chaine1 = "J'ai réussi avec avec l'aide de mon super binome; ";
+    $chaine2 = "merçi Eric.";
+  echo myFirstFonction ($chaine1,$chaine2);
 ?>
